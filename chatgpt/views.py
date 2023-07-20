@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import openai
   
-openai.api_key = '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'
+openai.api_key = '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'
   
 def get_completion(prompt):
     print(prompt)
